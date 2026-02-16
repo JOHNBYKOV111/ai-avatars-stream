@@ -1,0 +1,39 @@
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+
+# Python кэш
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+
+# Директории с данными
+logs/
+assets/audio_temp/
+*.log
+*.wav
+
+# Файлы конфигурации
+.env
+config/api_keys.yaml
+
+# Отчёты о тестах
+.coverage
+htmlcov/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Временные файлы
+temp/
+*.tmp
+*.bak

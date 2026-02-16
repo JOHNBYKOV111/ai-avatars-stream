@@ -1,0 +1,66 @@
+{
+  "scenes": [
+    {
+      "name": "MainScene",
+      "sources": [
+        {
+          "name": "Agent1Camera",
+          "type": "video_capture_device",
+          "enabled": true
+        },
+        {
+          "name": "Agent2Camera",
+          "type": "video_capture_device",
+          "enabled": true
+        },
+        {
+          "name": "Background",
+          "type": "image_source",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Agent1Focus",
+      "sources": [
+        {
+          "name": "Agent1Camera",
+          "type": "video_capture_device",
+          "enabled": true
+        },
+        {
+          "name": "Background",
+          "type": "image_source",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "name": "Agent2Focus",
+      "sources": [
+        {
+          "name": "Agent2Camera",
+          "type": "video_capture_device",
+          "enabled": true
+        },
+        {
+          "name": "Background",
+          "type": "image_source",
+          "enabled": true
+        }
+      ]
+    }
+  ],
+  "transitions": [
+    {
+      "name": "FadeTransition",
+      "type": "fade_transition",
+      "duration": 500
+    },
+    {
+      "name": "CutTransition",
+      "type": "cut_transition",
+      "duration": 0
+    }
+  ]
+}

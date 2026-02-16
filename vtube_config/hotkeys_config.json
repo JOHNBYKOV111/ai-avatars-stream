@@ -1,0 +1,29 @@
+{
+  "hotkeys": [
+    {
+      "name": "StartStream",
+      "key": "F1",
+      "action": "start_stream"
+    },
+    {
+      "name": "StopStream",
+      "key": "F2",
+      "action": "stop_stream"
+    },
+    {
+      "name": "SwitchToAgent1",
+      "key": "F3",
+      "action": "switch_to_agent1"
+    },
+    {
+      "name": "SwitchToAgent2",
+      "key": "F4",
+      "action": "switch_to_agent2"
+    },
+    {
+      "name": "ToggleRecording",
+      "key": "F5",
+      "action": "toggle_recording"
+    }
+  ]
+}

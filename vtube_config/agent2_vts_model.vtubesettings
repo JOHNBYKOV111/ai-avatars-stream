@@ -1,0 +1,18 @@
+{
+  "model_name": "Agent2",
+  "model_file": "agent2/model.model3",
+  "hotkey_profile": "default",
+  "settings": {
+    "scale": 1.0,
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": 0,
+    "opacity": 1.0
+  },
+  "animations": {
+    "idle": "breathing",
+    "speaking": "talking"
+  }
+}
